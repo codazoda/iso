@@ -11,9 +11,6 @@ function Iso(div, pixels) {
 	// Set a property for the size of the blocks from <pixels>
 	this.blockPixels = pixels;
 
-	// Output some debugging details
-	Debugger.log('Block Size: ' + this.blockPixels);
-
 }
 
 Iso.prototype.draw = function(x, y, z, file) {
